@@ -1,0 +1,19 @@
+mq:
+  queueManagers:
+    -
+      queueManager: QM1
+      channel: DEV.ADMIN.SVRCONN
+      connName: vps302763.ovh.net(1414)
+      queues:
+        - DEV.QUEUE.1
+        - DEV.QUEUE.2
+        - DEV.QUEUE.3
+    -
+      queueManager: QM2
+      channel: DEV.ADMIN.SVRCONN2
+      connName: vps302763.ovh.net(1414)
+      queues:
+        - DEV.QUEUE.12
+        - DEV.QUEUE.22
+        - DEV.QUEUE.32
+
